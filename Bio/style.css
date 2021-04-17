@@ -1,0 +1,127 @@
+body
+{
+	animation: scroll 70s linear infinite;
+	background: url('Background.jpg'), #111111;
+}
+@keyframes scroll/*Foreign edited code*/
+{
+	100%
+	{
+		background-position:0px -3000px;
+	}
+}
+@media (prefers-reduced-motion)/*Foreign edited code*/
+{
+	body
+	{
+		animation: scroll 200s linear infinite;
+	}
+}
+
+table
+{ 
+	margin: 0 auto;
+	font-size: 25px;
+	width: 70%;
+
+	border-collapse: separate;
+	border-spacing: 0px;
+	border: 1px solid rgb(119, 0, 255);
+	border-radius: 20px 20px;
+	overflow: hidden;/*Warning, totally not unnecessary!*/
+	
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead tr
+{
+	background-image: linear-gradient(76.9deg, rgba(255,90,90,1) 27.2%, rgba(130,5,255,1) 79.9% );
+}
+
+th
+{
+	font-family: Cambria;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+tr
+{
+	background-color: rgba(255, 255, 255, 80%);
+}
+tr:nth-child(even)
+{
+	background-color: hsl(0, 0%, 37.5%);/*#f2f2f2*/
+	color: white;/*Temp 555*/
+}
+tr:hover
+{
+	/* transition: 0.25s; */
+	background-color: #76f6ff6e;
+}
+tr:hover:nth-child(even)
+{
+	/* transition: 0.25s; */
+	background-color: #ff009d6e;
+}
+
+td
+{
+	font-family: Cambria;
+	padding: 10px;
+	text-align: center;
+}
+
+.key
+{
+	text-align: left;
+}
+
+input
+{
+	font-size: 25px;
+}
+input[type=text]
+{
+	border-radius: 25px;
+	text-align: center;
+	outline: none;
+	width: 830px;
+	
+}
+input[type='text']:hover
+{
+	color:#8400ff;
+}
+
+button
+{
+	display: inline-block;
+	padding: 5px 25px;
+	font-size: 25px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: hsl(125, 40%, 50%);
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 9px #999;
+	margin-bottom: 10px;
+}
+button:hover
+{
+	background-color: hsl(125, 40%, 40%)
+}
+button:active
+{
+	background-color: hsl(125, 40%, 40%);
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}

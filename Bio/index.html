@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='style.css'>
+	<title>Forms Helper</title>
+	<link rel='icon' type='image/png' href='Favicon.png'/>
+</head>
+<body>
+	<table spellcheck='false' id='myTable'>
+		<thead>
+			<tr>
+				<th onclick='sortTable(0)'>Key</th>
+				<th onclick='sortTable(1)'>Value</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<!-- Variable data starts from here. -->
+			<tr>
+				<td class='key'>Name:</td>
+				<td><input type='text' value='Haris Hasan Jalali' id='0'></td>
+				<td><button onclick='copyText(0)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Date of birth:</td>
+				<td><input type='text' value='26/10/1995' id='1'></td>
+				<td><button onclick='copyText(1)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Domicile province:</td>
+				<td><input type='text' value='Punjab' id='2'></td>
+				<td><button onclick='copyText(2)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Domicile city/district:</td>
+				<td><input type='text' value='Rawalpindi' id='3'></td>
+				<td><button onclick='copyText(3)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>CNIC:</td>
+				<td><input type='text' value='3740564500889' id='4'></td>
+				<td><button onclick='copyText(4)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>CNIC expiry date:</td>
+				<td><input type='text' value='10/03/2031' id='5'></td>
+				<td><button onclick='copyText(5)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>CNIC date of issue:</td>
+				<td><input type='text' value='10/03/2021' id='6'></td>
+				<td><button onclick='copyText(6)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Nationality:</td>
+				<td><input type='text' value='Pakistani' id='7'></td>
+				<td><button onclick='copyText(7)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Email address:</td>
+				<td><input type='text' value='haris.hasan.nust@gmail.com' id='8'></td>
+				<td><button onclick='copyText(8)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Mobile #:</td>
+				<td><input type='text' value='03349070646' id='9'></td>
+				<td><button onclick='copyText(9)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>PTCL #:</td>
+				<td><input type='text' value='0515421394' id='10'></td>
+				<td><button onclick='copyText(10)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Address:</td>
+				<td><input type='text' value='House # 235, street # 22, block D, P.W.D housing society, Islamabad' id='11'></td>
+				<td><button onclick='copyText(11)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Postal code:</td>
+				<td><input type='text' value='46000' id='12'></td>
+				<td><button onclick='copyText(12)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>School:</td>
+				<td><input type='text' value='Siddeeq Public School' id='13'></td>
+				<td><button onclick='copyText(13)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Board:</td>
+				<td><input type='text' value='Board of Intermediate & Secondary Education, Rawalpindi' id='14'></td>
+				<td><button onclick='copyText(14)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Matric marks:</td>
+				<td><input type='text' value='869' id='15'></td>
+				<td><button onclick='copyText(15)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Matric marks total:</td>
+				<td><input type='text' value='1050' id='16'></td>
+				<td><button onclick='copyText(16)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Matric marks %age:</td>
+				<td><input type='text' value='82.76' id='17'></td>
+				<td><button onclick='copyText(17)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Passing year:</td>
+				<td><input type='text' value='2010' id='18'></td>
+				<td><button onclick='copyText(18)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Registration #:</td>
+				<td><input type='text' value='10175310039' id='19'></td>
+				<td><button onclick='copyText(19)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Roll #:</td>
+				<td><input type='text' value='140871' id='20'></td>
+				<td><button onclick='copyText(20)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>College:</td>
+				<td><input type='text' value='F. G. Quaid-e-Azam College' id='21'></td>
+				<td><button onclick='copyText(21)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Board:</td>
+				<td><input type='text' value='Federal Board of Intermediate and Secondary Education' id='22'></td>
+				<td><button onclick='copyText(22)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>F.Sc marks:</td>
+				<td><input type='text' value='756' id='23'></td>
+				<td><button onclick='copyText(23)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>F.Sc marks total:</td>
+				<td><input type='text' value='1100' id='24'></td>
+				<td><button onclick='copyText(24)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>F.Sc marks %age:</td>
+				<td><input type='text' value='68.73' id='25'></td>
+				<td><button onclick='copyText(25)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Passing year:</td>
+				<td><input type='text' value='2012' id='26'></td>
+				<td><button onclick='copyText(26)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Registration #:</td>
+				<td><input type='text' value='1224930057' id='27'></td>
+				<td><button onclick='copyText(27)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Roll #:</td>
+				<td><input type='text' value='553681' id='28'></td>
+				<td><button onclick='copyText(28)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>University:</td>
+				<td><input type='text' value='National University of Sciences and Technology' id='29'></td>
+				<td><button onclick='copyText(29)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Degree:</td>
+				<td><input type='text' value='Bachelors of Engineering in Software Engineering' id='30'></td>
+				<td><button onclick='copyText(30)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>BESE CGPA:</td>
+				<td><input type='text' value='2.59' id='31'></td>
+				<td><button onclick='copyText(31)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>BESE CGPA total:</td>
+				<td><input type='text' value='4' id='32'></td>
+				<td><button onclick='copyText(32)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>BESE CGPA %age:</td>
+				<td><input type='text' value='62.19' id='33'></td>
+				<td><button onclick='copyText(33)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Passing year:</td>
+				<td><input type='text' value='2017' id='34'></td>
+				<td><button onclick='copyText(34)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Registration #:</td>
+				<td><input type='text' value='Nust201304592bseecs60513f' id='35'></td>
+				<td><button onclick='copyText(35)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>PEC registration #:</td>
+				<td><input type='text' value='Comp/18960' id='36'></td>
+				<td><button onclick='copyText(36)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>University 2:</td>
+				<td><input type='text' value='Pakistan Institute of Engineering and Applied Sciences' id='37'></td>
+				<td><button onclick='copyText(37)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Degree:</td>
+				<td><input type='text' value='Master of Science in Computer Science' id='38'></td>
+				<td><button onclick='copyText(38)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>MSCS CGPA:</td>
+				<td><input type='text' value='3.58' id='39'></td>
+				<td><button onclick='copyText(39)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>MSCS CGPA total:</td>
+				<td><input type='text' value='4' id='40'></td>
+				<td><button onclick='copyText(40)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>MSCS CGPA %age:</td>
+				<td><input type='text' value='89.5' id='41'></td>
+				<td><button onclick='copyText(41)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Passing year:</td>
+				<td><input type='text' value='2019' id='42'></td>
+				<td><button onclick='copyText(42)'>Copy</button></td>
+			</tr>
+			<tr>
+				<td class='key'>Registration #:</td>
+				<td><input type='text' value='03-6-1-006-2017' id='43'></td>
+				<td><button onclick='copyText(43)'>Copy</button></td>
+			</tr>			
+			<!-- Variable data ends here -->
+		</tbody>
+	</table>
+
+	<script>
+	function copyText(id)
+	{
+		var input=document.getElementById(id);
+		input.select();
+		input.setSelectionRange(0,99999)
+		document.execCommand('copy');
+	}
+
+	//Code copied from internet without understanding. Only cosmetic changes were made. Initial test was successful. It does what it is meant for.
+	function sortTable(n)
+	{
+		var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+		table = document.getElementById("myTable");
+		switching = true;
+		//Set the sorting direction to ascending:
+		dir = "asc"; 
+		/*Make a loop that will continue until no switching has been done:*/
+		while (switching)
+		{
+			//start by saying: no switching is done:
+			switching = false;
+			rows = table.rows;
+			/*Loop through all table rows (except the first, which contains table headers):*/
+			for (i = 1; i < (rows.length - 1); i++)
+			{
+				//start by saying there should be no switching:
+				shouldSwitch = false;
+				/*Get the two elements you want to compare, one from current row and one from the next:*/
+				x = rows[i].getElementsByTagName("TD")[n];
+				y = rows[i + 1].getElementsByTagName("TD")[n];
+				/*check if the two rows should switch place, based on the direction, asc or desc:*/
+				if (dir == "asc")
+				{
+					if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase())
+					{
+						//if so, mark as a switch and break the loop:
+						shouldSwitch= true;
+						break;
+					}
+				}
+				else if (dir == "desc")
+				{
+					if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase())
+					{
+						//if so, mark as a switch and break the loop:
+						shouldSwitch = true;
+						break;
+					}
+				}
+			}
+			if (shouldSwitch)
+			{
+				/*If a switch has been marked, make the switch and mark that a switch has been done:*/
+				rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+				switching = true;
+				//Each time a switch is done, increase this count by 1:
+				switchcount ++;      
+			}
+			else
+			{
+				/*If no switching has been done AND the direction is "asc", set the direction to "desc" and run the while loop again.*/
+				if (switchcount == 0 && dir == "asc")
+				{
+					dir = "desc";
+					switching = true;
+				}
+			}
+		}
+	}
+	</script>
+
+</body>
+</html>
