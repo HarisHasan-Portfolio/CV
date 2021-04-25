@@ -1,0 +1,134 @@
+*
+{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: Raleway;
+    font-size: 25px;
+
+}
+
+body
+{
+    background: url('a.jpg');
+    margin: 0px;
+}
+
+
+#zzz
+{
+    border-radius: 25px;
+    width: 40%;
+    min-width: 450px;/*Wow!*/
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+#zzz div
+{
+    color: cadetblue;
+}
+
+#xxx
+{
+    /* width: 60%; */
+    /* height: 100%; */
+}
+
+input[type='text']
+{
+    width: 200px;
+    border-width: 1px;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    padding: 10px;
+}
+input[type='text']:hover
+{
+    border-color: darkorange;
+}
+
+select
+{
+    width: 110px;
+    text-align-last:center;
+    outline: none;
+    padding: 10px;
+}
+
+#reliability
+{
+    width: 125px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+button
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: bold;text-transform: uppercase;
+    font-size: 20px;
+    width: 180px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+button:hover
+{
+
+}
+
+#calc
+{
+    border-radius: 25px 5px;
+    background-color: hsl(195, 100%, 50%);
+}
+#calc:hover
+{
+    background-color: hsl(195, 100%, 45%);
+}
+#calc:active
+{
+    background-color: hsl(195, 100%, 35%);
+}
+
+#reset
+{
+    border-radius: 5px 25px;
+    background-color: hsl(10, 100%, 50%);
+}
+#reset:hover
+{
+    background-color: hsl(10, 100%, 45%);
+}
+#reset:active
+{
+    background-color: hsl(10, 100%, 35%);
+}
+
+h1
+{
+    color: white;
+    font-weight: unset;
+    /* margin-top: 90px; */
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#dur,#tim
+{
+    display: none;
+}
+
+.super-centred
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}

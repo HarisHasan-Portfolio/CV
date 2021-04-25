@@ -1,0 +1,30 @@
+dur aur time ka color changed
+reset ko clear
+select for reliability ki jga up down arrow wala
+js k functions nikaalnay hyn
+different color for duration and dusra
+
+Dones:
+Comment maximum lines in js file warna future mein yaad nhi rehna k kya kiya tha
+Don't allow calculation if - sign is present in file size or speed√
+Website responsive honi chahiyae√
+Calculate k sath clear ka button√
+Empty inputs ki wja se NaN k bjaye error show hona chaiyae.√
+It will finish at mein AM or PM ana chahiyae instead of 24 format√
+It will finish at ko format karna hy√
+Resolve bug of uneeded & when seconds are absent from duration√
+Width choti√
+Margin below select√
+Duration seconds k bjaye dusray format mein√
+Duration mein 0 na aye√
+Duration mein commas ayain√
+Duration mein & aye at end only√
+Reliability wali cheez ka code likhna hy√
+<br> se jaan churwani hy√
+Enter file size k upar utni padding dainy hy, jitna margin button k neechay diya hua hy.√
+It will finish at wali cheez ka initial version dalna hy√
+Centred content√
+Buttons ka color different
+
+Plans for this:
+Upload on free hosting when ready

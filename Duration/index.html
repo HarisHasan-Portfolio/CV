@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>File Transfer Speed Calculator</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<script src='main.js'></script>
+</head>
+<body>
+	<div class='super-centred'>
+		<div id='zzz'>
+			<h1>Enter file size:</h1>
+			<input type='text' id='size' required>
+			<select id='size-unit'>
+				<option value='1048576'>MB</option>
+				<option value='1073741824'>GB</option>
+				<option value='1099511627776'>TB</option>
+			</select>
+			<h1>Enter network speed:</h1>
+			<input type='text' id='speed' required>
+			<select id='speed-unit'>
+				<option value='1024'>kB/s</option>
+				<option value='1048576'>MB/s</option>
+				<option value='1073741824'>GB/s</option>
+			</select>
+			
+			<h1>Select network reliability (optional):</h1>
+			<select id='reliability'>
+				<option value='1'>100 %</option>
+				<option value='0.95'>95%</option>
+				<option value='0.9'>90 %</option>
+				<option value='0.8'>80 %</option>
+				<option value='0.7'>70 %</option>
+				<option value='0.6'>60 %</option>
+				<option value='0.5'>50 %</option>
+				<option value='0.4'>40 %</option>
+				<option value='0.3'>30 %</option>
+				<option value='0.2'>20 %</option>
+				<option value='0.1'>10 %</option>
+			</select>
+			<h1 id='dur'></h1>
+			<h1 id='tim'></h1>
+			<div>
+				<button id='calc' onclick='calculate()'>Calculate</button>
+				<button id='reset' onclick='reset()'>Reset</button>
+			</div>
+		</div>
+	</div>
+		
+</body>
+</html>
