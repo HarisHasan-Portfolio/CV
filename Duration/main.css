@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family:"Raleway";
+    src: url("Raleway-Regular.ttf") format("truetype");
+}
+  
 *
 {
     box-sizing: border-box;
